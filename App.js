@@ -4,7 +4,7 @@ import { StyleSheet, Text, SafeAreaView } from "react-native";
 // import { SafeAreaProvider } from "react-native-safe-area-context";
 //import
 //import TodoHeader
-// import TodoHeader from "./src/components/TodoHeader";
+import TodoHeader from "./src/components/TodoHeader";
 //import TodoList
 
 import TodoList from "./src/components/TodoList";
@@ -18,7 +18,7 @@ export default function App() {
   const RootApp = () => {
     return (
       <SafeAreaView>
-        {/* <TodoHeader /> */}
+        <TodoHeader />
         <TodoList />
       </SafeAreaView>
     );
